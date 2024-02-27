@@ -1,26 +1,52 @@
+@font-face {
+    font-family: 'Fortnite';
+    src: url('./Fortnite.otf');
+    font-weight: normal;
+}
 html {
     height: 100%;
 }
 
 body {
+    padding: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     height: 100%;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: "Fortnite", "Lilita One", sans-serif; 
     overflow: hidden;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+.wrap{
+position: relative;
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 60px;
+    /* font-weight: 700; */
+    font-size: 100px;
+    margin: 0;
+}
+
+.remi{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transform: translate(20px, 0%) ;
+    z-index: -1;
+    width: 300px;
+    max-width: 100%;
 }
 
 .text-wrapper {
     background-image: url('./bg.jpg');
-    padding: 20px 40px;
-    border-radius: 100px;
+    padding: 10px;
+    border-radius: 20px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-x: 0%;
@@ -32,7 +58,9 @@ h1 {
 
 .letter {
     display: inline-block;
-    color: #FFF5C9;
-    text-shadow: 0 0 5px #000;
+     /* color: #f5e9b5;  */
+    /* color: #D092D9; */
+    color: #d1a3d8;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
     letter-spacing: 3px;
 }
