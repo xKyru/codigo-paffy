@@ -51,6 +51,15 @@ h1 {
     width: 350px;
     max-width: 100%;
 }
+.aubrey{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transform: translate(20px, 0%) ;
+    z-index: -1;
+    width: 350px;
+    max-width: 100%;
+}
 
 .text-wrapper {
     background-image: url('./bg.jpg');
