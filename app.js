@@ -1,4 +1,17 @@
 window.addEventListener("load", () => {
+
+    function randomNumber(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    const conmeticUrl = `./img/cosmetics/cosmetic-${randomNumber(1, 19)}.png`
+    const cosmeticImg = document.querySelector("#cosmetic");
+    cosmeticImg.src = conmeticUrl;
+    console.log(conmeticUrl);
+
+    //GSAP
     var textWrapper = document.querySelector('.code .letters');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 

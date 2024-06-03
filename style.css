@@ -33,36 +33,21 @@ h1 {
     margin: 0;
 }
 
-.remi{
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    transform: translate(20px, 0%) ;
-    z-index: -1;
-    width: 300px;
-    max-width: 100%;
-} 
-.cozy{
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    transform: translate(20px, 0%) ;
-    z-index: -1;
-    width: 350px;
-    max-width: 100%;
-}
-.aubrey{
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    transform: translate(20px, 0%) ;
-    z-index: -1;
-    width: 350px;
+img{
     max-width: 100%;
 }
 
+.cosmetic{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transform: translate(20px, 0%) ;
+    z-index: -1;
+    max-width: 300px;
+} 
+
 .text-wrapper {
-    background-image: url('./bg.jpg');
+    background-image: url('./img/bg.jpg');
     padding: 10px;
     border-radius: 20px;
     background-repeat: no-repeat;
