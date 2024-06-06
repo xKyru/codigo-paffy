@@ -6,10 +6,9 @@ window.addEventListener("load", () => {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    const conmeticUrl = `./img/cosmetics/cosmetic-${randomNumber(1, 19)}.png`
+    const conmeticUrl = `./img/cosmetics/cosmetic-${randomNumber(1, 30)}.png`
     const cosmeticImg = document.querySelector("#cosmetic");
     cosmeticImg.src = conmeticUrl;
-    console.log(conmeticUrl);
 
     //GSAP
     var textWrapper = document.querySelector('.code .letters');
