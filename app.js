@@ -1,12 +1,13 @@
 window.addEventListener("load", () => {
 
+    const totalImages = 37;
     function randomNumber(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    const conmeticUrl = `./img/cosmetics/cosmetic-${randomNumber(1, 30)}.png`
+    const conmeticUrl = `./img/cosmetics/cosmetic-${randomNumber(1, totalImages)}.png`;
     const cosmeticImg = document.querySelector("#cosmetic");
     cosmeticImg.src = conmeticUrl;
 
