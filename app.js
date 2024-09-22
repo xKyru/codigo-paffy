@@ -19,8 +19,9 @@ window.addEventListener("load", () => {
     tlBg.to(".text-wrapper", { backgroundPositionY: "10%", backgroundPositionX: "90%", backgroundSize: "200%", yoyo: true, duration: 60, repeat: -1, repeatDelay: 5, ease: "none" });
 
     let tlLetter = gsap.timeline();
-    // tlLetter.to(".letter", { rotateY: 360, stagger: 0.1, yoyo: false, repeat: -1, repeatDelay: 15 })
-    tlLetter.to(".letter", { textShadow: "0px 0px 20px #110039, 0px 0px 20px #D235DB", stagger: 0.1, yoyo: true, repeat: -1, repeatDelay: 0, duration: 2  })
+    tlLetter.to(".letter", { scale:1.1, repeat: -1, stagger:0.1, repeatDelay: 5, yoyo: true, ease: "bounce.out" })
+    tlLetter.to(".letter", { rotateY: 360, stagger: -0.1, yoyo: false, repeat: -1, repeatDelay: 11.9, delay: 5.1 })
+    // tlLetter.to(".letter", { textShadow: "0px 0px 20px #110039, 0px 0px 20px #D235DB", stagger: 0.1, yoyo: true, repeat: -1, repeatDelay: 0, duration: 2  })
     // tlLetter.to(".letter", { textShadow: "0px 0px 15px #003648, 0px 0px 15px rgba(88, 234, 255, 0.8)", stagger: 0.1, yoyo: true, repeat: -1, repeatDelay: 0.2, duration: 2  })
     // tlLetter.to(".letter", { textShadow: "0px 0px 15px #18331C, 0px 0px 15px rgba(122, 253, 139, 0.6)", stagger: 0.1, yoyo: true, repeat: -1, repeatDelay: 0.2, duration: 2  })
     // let tlRemi = gsap.timeline();
