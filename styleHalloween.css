@@ -23,6 +23,7 @@ body {
     align-items: flex-end;
     justify-content: center;
     height: 100%;
+    width: 100%;
     /* font-family: "Lilita One", sans-serif; */
     font-family: "Phantom Fingers", sans-serif; 
     overflow: hidden;
@@ -39,7 +40,7 @@ position: relative;
 
 h1 {
     /* font-weight: 700; */
-    font-size: 60px;
+    font-size: 55px;
     margin: 0;
 }
 
@@ -62,7 +63,7 @@ img{
 
 .text-wrapper {
     background-image: url('./img/bg-halloween.jpg');
-    padding: 20px 30px;
+    padding: 10px 15px;
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: 150%;
