@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Nightmare';
+    src: url('./fonts/Nightmare.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Phantom Fingers';
+    src: url('./fonts/Phantom_Fingers.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Scary Zombie';
+    src: url('./fonts/Scary_Zombie.ttf');
+    font-weight: normal;
+}
+html {
+    height: 100%;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: "Phantom Fingers", sans-serif; 
+    overflow: hidden;
+    /* text-transform: uppercase; */
+    transform: scale(0.5);
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+.wrap{
+position: relative;
+}
+
+h1 {
+    /* font-weight: 700; */
+    font-size: 60px;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.cosmetic{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transform: translate(20px, 0%) ;
+    z-index: -1;
+    max-width: 300px;
+} 
+.lexa{
+    max-width: 500px;
+    transform: translate(0, 60px) ;
+}
+
+.text-wrapper {
+    background-image: url('./img/bg-halloween.jpg');
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-x: 5%;
+    background-position-y: 95%;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+
+.text-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.35;
+    border-radius: 30px;
+}
+
+.letters{
+    position: relative;
+    z-index: 2;
+}
+
+.letters::after{
+    content: 'Codigo: NotPaffy';
+    position: absolute;
+    letter-spacing: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0.4);
+    transform: translate(5px, 5px);
+}
+
+
+.letter {
+    display: inline-block;
+    /* transform: scale(0.95); */
+     /* color: #f5e9b5;  */
+    /* color: #D092D9; */
+    color: #fff;
+    /* text-shadow: 4px 4px 0px rgba(0, 0, 0, 1); */
+    letter-spacing: 10px;
+}

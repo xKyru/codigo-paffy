@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
     let tlBg = gsap.timeline();
-    tlBg.to(".text-wrapper", { backgroundPositionY: "10%", backgroundPositionX: "90%", backgroundSize: "200%", yoyo: true, duration: 60, repeat: -1, repeatDelay: 5, ease: "none" });
+    tlBg.to(".text-wrapper", { backgroundPositionY: "80%", backgroundPositionX: "95%", backgroundSize: "180%", yoyo: true, duration: 60, repeat: -1, repeatDelay: 5, ease: "none" });
 
     let tlLetter = gsap.timeline();
     tlLetter.to(".letter", { scale:1.1, repeat: -1, stagger:0.1, repeatDelay: 5, yoyo: true, ease: "bounce.out" })
