@@ -26,4 +26,11 @@ window.addEventListener("load", () => {
     // tlLetter.to(".letter", { textShadow: "0px 0px 15px #18331C, 0px 0px 15px rgba(122, 253, 139, 0.6)", stagger: 0.1, yoyo: true, repeat: -1, repeatDelay: 0.2, duration: 2  })
     // let tlRemi = gsap.timeline();
     // tlRemi.to(".remi", {scale: 1.05, duration: 1, yoyo: true, repeat: -1});
+
+    // Image fade
+    let img1 = gsap.timeline();
+    img1.to(".code .img1", {opacity: 0, repeat: -1, repeatDelay: 300, delay: 300, yoyo: true});
+
+    let img2 = gsap.timeline();
+    img2.to(".code .img2", {opacity: 1, repeat: -1, repeatDelay: 300, delay: 300, yoyo: true});
 });

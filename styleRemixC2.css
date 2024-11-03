@@ -47,6 +47,10 @@ img{
     max-width: 350px;
 } 
 
+.code .skye{
+    max-width: 380px;
+}
+
 .text-wrapper {
     background-image: url('./img/bg-remixc2.png');
     padding: 10px 15px;
@@ -60,6 +64,11 @@ img{
     position: relative;
     z-index: 1;
 }
+
+.code .img2{
+    opacity: 0;
+}
+
 
 .text-wrapper::after{
     content: '';
