@@ -4,7 +4,7 @@
       "value": 80,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1200
       }
     },
     "color": {
@@ -20,26 +20,26 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "./img/chapter_6/season_1/petal.png",
+        "src": "./img/chapter_6/chinese_new_year/particle2.png",
         "width": 100,
         "height": 100
       }
     },
     "opacity": {
       "value": 0.5,
-      "random": true,
+      "random": false,
       "anim": {
-        "enable": false,
-        "speed": 1,
+        "enable": true,
+        "speed": 10,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 8,
+      "value": 40,
       "random": true,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 5,
         "size_min": 0.1,
         "sync": false
@@ -49,13 +49,13 @@
       "enable": false,
       "distance": 150,
       "color": "#ffffff",
-      "opacity": 0.4,
+      "opacity": 0.1,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 2,
-      "direction": "bottom",
+      "speed": 0.5,
+      "direction": "top",
       "random": true,
       "straight": false,
       "out_mode": "out",
